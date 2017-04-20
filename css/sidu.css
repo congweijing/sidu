@@ -1,0 +1,290 @@
+@charset "utf-8";
+/*reset区域*/
+*{
+	margin:0;
+	padding:0;
+	font: inherit;
+	box-sizing: border-box;
+}
+.clearfix{zoom:1}
+.clearfix:after{content:"";display:block;clear:both;}
+/*comment区域*/
+
+a{color:##1B242F;text-decoration:none;}
+a:hover {color: rgb(8, 168, 194) !important;}
+.fl{float:left;}
+.fr{float:right;}
+.hide{display:none;}
+.show{display:block;}
+/*头部区域*/
+/*header{
+	width:auto;
+	height:70px;
+}
+.containter{
+  width:1140px;
+	height:70px;
+	margin:0 auto;
+}
+.header_logo{
+	margin-top:12px;
+	width:90px;
+	height:45px;
+}
+.header_logo img{
+    width:90px;
+	height:45px;
+}
+.header_menu{
+	width:684px;
+	height:70px;
+}
+.header_menu .selected{
+	color: rgb(8, 168, 194);
+}
+header .menu_item{	
+	font-family:inherit;
+	font-size:14px;
+}
+header li{
+	list-style-type:none;
+	float:left;
+	width:80px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+}
+
+*/
+/*头部导航区*/
+header{
+	position:fixed;
+	background-color:#FFF;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:999;
+}
+.container {
+    margin: 0 auto;
+		position:relative;
+    padding-top: 0;
+}
+header .logo {
+	width:90px;
+  height: 45px;
+  position:absolute;
+  top: 12px;
+  left: 27px;
+}
+header .headerMenu{
+	float:right;
+	width:664px;
+	height:70px;
+	padding-right:20px;
+}
+header .menuItem{
+	float:right;
+	width:80px;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+}
+/*轮播图区域*/	
+.overimg{
+	margin-top:100px;
+}
+.overimg img{
+  width:100%;
+	height:412px;
+}
+/*主要内容区*/
+.content{
+	width:100%;
+}
+/*服务区*/
+.content .service{
+	padding:0 15px;
+}
+.content .row {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.service .col-md-5{
+	padding:25px 15px 0 15px;
+	overflow:hidden;
+}
+.service .col-md-7{
+
+}
+.service-title{
+	overflow:hidden;
+}
+.service-title h1{
+ font-size: 26px;
+}
+.service-text{
+	padding-right: 8px;
+}
+.service-title h2{
+	padding-bottom:20px;
+}
+
+.service-info {
+	font-size: 22px;  
+	text-align:justify;
+	word-wrap:break-word;
+  word-break:break-all;
+  font-size: 14px;
+  color: #1a9caa;
+}
+.about{
+	padding:5px 15px;
+	color:rgb(255,255,255);
+	margin-top:50px;
+	background-color: rgb(26, 156, 170);
+}
+
+.about:hover,.about:active {
+    color: rgb(255, 255, 255) !important;
+}
+/*新近动态区域*/
+.col-md-4{
+	position:relative;
+}
+.latest-posts{
+	margin:30px 0;
+}
+.latest-posts-grid h1{
+	margin:20px 0 5px 0;
+}
+.latest-posts-grid h1 .more{
+	font-size:16px;
+	padding-right:10px;
+}
+/*行业背景*/
+.industry-background
+{
+	margin-top:50px;
+	text-align:center;
+}
+.industry-background h2{
+  margin: 10px;
+ font-size: 20px;
+}
+.industry-background p{
+  font-size: 16px;
+}
+/*行业展望*/
+.industry-tit{
+	display:inline-block;
+	position:absolute;
+  left: 22px;
+  top: 10px;
+	width:50%;
+	text-align:center;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.industry-info{
+	display:inline-block;
+	position:absolute;
+	width:50%;
+	text-align:center;
+	top:20px;
+	right:15px;
+}
+/*市场政策*/
+.policy-txt{
+	margin-top:50px;
+	font-size:16px;
+	margin-left:8px;
+	margin-bottom:50px;
+}
+.policy {
+    background: rgb(202, 202, 202);
+		padding-left:0;
+		margin-left:0;
+		
+}
+.policy-tit{
+	width:100%;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 0;
+}
+.policy-info{
+	width:100%;
+	padding:10px;
+}
+.policy .policy-content {
+    background: rgb(255, 255, 255);
+    height: 180px;
+    border-top:rgb(202, 202, 202) 5px solid;
+    box-sizing: border-box;
+}
+.policy-bb{
+	width:100%;
+	height:30px;
+	background-color:rgb(202, 202, 202);
+}
+/*指导意见区域*/
+.idea-title{
+	padding:50px 0 30px 0;
+	text-align:center;
+	font-size:16px;
+}
+.idea-box{
+	border:1px #000000 solid;
+  height:200px;
+}
+/*发展趋势*/
+.tendency-tit{
+	margin-top:50px;
+	font-size:16px;
+	margin-left:8px;
+	margin-bottom:50px;
+}
+/*底部图片*/
+.bottom-img{
+	width:100%;
+}
+/*底部版权区*/
+footer{
+    background: rgb(63, 63, 63);
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.footer-layout{
+	padding:28px;
+}
+/*left*/
+.logo-footer {
+    width: 70px;
+    height: auto;
+}
+footer #info_footer {
+    color: rgb(175, 175, 175);
+}
+footer .text{
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+/*center*/
+#text_footer {
+    width: 150px;
+    height: auto;
+    margin-bottom: 8px;
+}
+/*right*/
+.footer-right{
+	padding-left:10em;
+}
+#sub_info_footer{
+	color: rgb(175, 175, 175);
+}
+	
