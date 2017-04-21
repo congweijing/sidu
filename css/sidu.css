@@ -289,6 +289,9 @@ header .logo{
     text-align: right;
 		
 }
+.footer-right {
+    padding-left:2em;
+}
 }
 @media only screen and (min-width:995px)
 {
